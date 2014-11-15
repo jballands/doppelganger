@@ -1,0 +1,35 @@
+/* 
+ *  main.scss
+ *
+ *  The main SASS file for the Doppelganger theme.
+ *
+ *  Doppelganger copyright © 2014 Jonathan Ballands. All Rights Reserved.
+ *  Ghost copyright © 2014 The Ghost Foundation. All Rights Reserved.
+ */
+
+/*
+ *  Fonts
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,400italic);
+
+/*
+ *  Colors
+ */
+$default-color:     #3e3e46;
+$gray-color:        #b7b7b7;
+
+/*
+ *  Defaults
+ */
+
+body {
+    color: $default-color;
+}
+
+/*
+ *  Partials
+ */
+
+@import '_index.scss';

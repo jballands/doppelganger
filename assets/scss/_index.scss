@@ -1,0 +1,26 @@
+/* 
+ *  _index.scss
+ *
+ *  A SASS partial for the index.hbs pages that Ghost renders.
+ *
+ *  Doppelganger copyright © 2014 Jonathan Ballands. All Rights Reserved.
+ *  Ghost copyright © 2014 The Ghost Foundation. All Rights Reserved.
+ */
+
+.header_container {
+    text-align: center;
+    
+    .header_container-title {
+        margin-top: 15vh;
+        font-family: 'Oswald', sans-serif;
+        font-size: 54pt;
+    }
+    
+    .header_container-description {
+        font-family: 'Arvo', serif;
+        font-style: italic;
+        font-size: 16pt;
+        margin-bottom: 15vh;
+        color: $gray-color;
+    }
+}

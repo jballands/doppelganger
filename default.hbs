@@ -1,0 +1,39 @@
+<!--
+ *  default.hbs
+ *   
+ *  The main handlebars file that Ghost references when it wants to render a
+ *  Doppelganger page.
+ *
+ *  Doppelganger copyright © 2014 Jonathan Ballands. All Rights Reserved.
+ *  Ghost copyright © 2014 The Ghost Foundation. All Rights Reserved.
+-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <meta charset="utf-8" />
+        
+        <!-- Title and description -->
+        <title>{{meta_title}}</title>
+        <meta name="description" content="{{meta_description}}" />
+        
+        <!-- Responsive -->
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <!-- Doppelganger Styling -->
+        <link type="text/css" rel="stylesheet" href="{{asset '/css/style.css'}}" />
+    
+    </head>
+    
+    <body class="{{body_class}}">
+    
+        {{{body}}}
+        
+        {{ghost_foot}}
+        
+    </body>
+
+</html>
