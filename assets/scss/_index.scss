@@ -9,18 +9,29 @@
 
 .header_container {
     text-align: center;
+    padding: 15vh 0;
+    background-color: $default-color;
     
     .header_container-title {
-        margin-top: 15vh;
         font-family: 'Oswald', sans-serif;
         font-size: 54pt;
+        color: $white-color;
     }
     
     .header_container-description {
         font-family: 'Arvo', serif;
         font-style: italic;
         font-size: 16pt;
-        margin-bottom: 15vh;
+        margin-top: 5px;
         color: $gray-color;
+    }
+    
+    .divider {
+        width: 50%;
+        height: 1px;
+    
+        min-height: 1px;
+        border-bottom: 1px solid $white-color;
+        margin: 50px auto;
     }
 }
