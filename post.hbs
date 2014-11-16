@@ -17,16 +17,26 @@
         
         <div class="post_title-container">
             
-            <div class="post_title-container-content">
-                <div class="title">
-                    {{{title}}}
-                </div>
-                <div class="date">
-                    <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='MMM DD YYYY'}}</time>
-                </div>
-                
+            <div class="divider"></div>
+            
+            <div class="title">
+                {{{title}}}
             </div>
+                
+            <div class="date">
+                <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='MMMM DD, YYYY'}}</time>
+            </div>
+                
+            <div class="divider"></div>
         </div>
+        
+        <section class="post_content">
+            
+            <div class="dot"></div>
+            
+            {{content}}
+            
+        </section>
         
         {{/post}}
         
