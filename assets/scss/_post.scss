@@ -18,11 +18,30 @@
         color: $white-color;
     }
     
-    .date {
+    .post_title-stats {
         font-family: 'Arvo', serif;
-        font-size: 16pt;
-        color: $gray-color;
-        margin-top: 5px;
+        font-size: 14pt;
+        margin: 13px auto;
+        text-align: center;
+        
+        .date {
+            color: $gray-color;
+            border-right: 1px solid $white-color;
+            padding-right: 20px;
+            display: inline-block;
+        }
+        
+        a {
+            color: $white-color;
+            font-style: italic;
+            text-decoration: none;
+            padding-left: 20px;
+            display: inline-block;
+        }
+    
+        a:hover {
+            color: $gray-color;
+        }
     }
     
     .divider {
@@ -37,8 +56,8 @@
 .post_content {
     width: 75%;
     margin: 0 auto;
-    font-family: 'Lora', serif;
-    font-size: 13pt;
+    font-family: 'Vollkorn', serif;
+    font-size: 16pt;
     
     .dot {
         width: 5px;
@@ -49,8 +68,9 @@
     }
     
     p {
-        margin: 15px 0;
-        line-height: 15pt;
+        margin: 18px 0;
+        line-height: 18pt;
+        color: $dark-gray-color;
     }
     
     h1 {
