@@ -1,0 +1,35 @@
+<!--
+ *  post.hbs
+ *   
+ *  Controls the look of individual posts in Doppelganger.
+ *
+ *  Doppelganger copyright © 2014 Jonathan Ballands. All Rights Reserved.
+ *  Ghost copyright © 2014 The Ghost Foundation. All Rights Reserved.
+-->
+
+{{!< default}}
+              
+<main class="main-header" role="banner">
+
+    <article class="{{post_class}}">
+        
+        {{#post}}
+        
+        <div class="post_title-container">
+            
+            <div class="post_title-container-content">
+                <div class="title">
+                    {{{title}}}
+                </div>
+                <div class="date">
+                    <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='MMM DD YYYY'}}</time>
+                </div>
+                
+            </div>
+        </div>
+        
+        {{/post}}
+        
+    </article>
+
+</main>
