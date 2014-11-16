@@ -1,90 +1,15 @@
-/* 
- *  main.scss
- *
- *  The main SASS file for the Doppelganger theme.
- *
- *  Doppelganger copyright © 2014 Jonathan Ballands. All Rights Reserved.
- *  Ghost copyright © 2014 The Ghost Foundation. All Rights Reserved.
- */
-
 /*
- *  Reset
- */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
 
-/*
- *  Fonts
- */
-
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Raleway);
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,400italic);
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
-
-/*
- *  Colors
- */
-$default-color:     #3e3e46;
-$white-color:       #fff;
-$gray-color:        #b7b7b7;
-$dark-gray-color:   #838383;
-$blue-color:        #70a3c7;
-
-/*
- *  Defaults
- */
-
-body {
-    color: $default-color;
-}
-
-/*
- *  Code
- */
+*/
 
 .hljs {
-  color: $default-color;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
   -webkit-text-size-adjust: none;
 }
 
@@ -221,12 +146,3 @@ body {
 .hljs-comment .hljs-yardoctag {
   font-weight: bold;
 }
-
-
-/*
- *  Partials
- */
-
-@import '_index.scss';
-@import '_post.scss';
-@import '_pagination.scss';

@@ -40,7 +40,7 @@
         }
     
         a:hover {
-            color: $gray-color;
+            color: $blue-color;
         }
     }
     
@@ -58,6 +58,7 @@
     margin: 0 auto;
     font-family: 'Vollkorn', serif;
     font-size: 16pt;
+    color: $dark-gray-color;
     
     .dot {
         width: 5px;
@@ -70,7 +71,6 @@
     p {
         margin: 18px 0;
         line-height: 18pt;
-        color: $dark-gray-color;
     }
     
     code {
@@ -81,16 +81,19 @@
         font-family: 'Oswald', sans-serif;
         font-size: 48pt;
         margin: 35px 0;
+        color: $default-color;
     }
     h2 {
         font-family: 'Oswald', sans-serif;
         font-size: 36pt;
         margin: 35px 0;
+        color: $default-color;
     }
     h3 {
         font-family: 'Oswald', sans-serif;
         font-size: 28pt;
         margin: 25px 0;
+        color: $default-color;
     }
     
     a {
@@ -98,5 +101,9 @@
         text-decoration: none;
         font-style: italic;
         color: $gray-color;
+    }
+    
+    a:hover {
+        color: $blue-color;
     }
 }
