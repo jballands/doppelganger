@@ -57,6 +57,7 @@ table {
  */
 
 @import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,400italic);
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
 
@@ -74,6 +75,26 @@ $dark-gray-color:   #838383;
 
 body {
     color: $default-color;
+}
+
+/*
+ *  Code
+ */
+
+.hljs-comment, .hljs-doctype {
+    color: #4A4A4A;
+}
+
+.hljs-tag, .hljs-keyword {
+    color: #00B3FF;
+}
+
+.hljs-attribute {
+    color: #7FE000;
+}
+
+.hljs-value {
+    color: #FFA200;
 }
 
 /*

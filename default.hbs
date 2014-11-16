@@ -25,6 +25,19 @@
         
         <!-- Doppelganger Styling -->
         <link type="text/css" rel="stylesheet" href="{{asset '/css/style.css'}}" />
+        
+        <!-- Scripts -->
+        <script type="text/javascript" src="{{asset '/js/highlight.pack.js'}}"></script>
+        
+        <!-- Syntax highlighting -->
+        <script type="text/javascript">
+            window.onload = function() {
+                var codeBlocks = document.querySelectorAll("code");
+                for (var i = 0 ; i < codeBlocks.length ; i++) {
+                    hljs.highlightBlock(codeBlocks[i]);
+                }
+            }
+        </script>
     
     </head>
     
