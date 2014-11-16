@@ -24,3 +24,35 @@
     </div>
 </header>
 
+<main class="content" role="main">
+    
+    <div class="post_preview-container">
+    
+        {{#foreach posts}}
+
+        <article class="{{post_class}}">
+            <div class="post_preview-title">
+                {{{title}}}
+            </div>
+            
+            <div class="post_preview-dot"></div>
+            
+            <div class="post_preview-excerpt">
+                {{excerpt}}...
+            </div>
+            
+            <div class="post_preview-stats">
+                <span class="post_preview-date">{{date format="MMM DD YYYY"}}</span>
+                <a class="post_preview-link" href="{{url}}">Read the entire post</a>
+            </div>
+            
+            <div class="divider"></div>
+        </article>
+
+        {{/foreach}}
+        
+    </div>
+    
+    {{pagination}}
+    
+</main>
