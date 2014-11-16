@@ -1,0 +1,28 @@
+/* 
+ *  _pagination.scss
+ *
+ *  A SASS partial for the index.hbs pages that Ghost renders.
+ *
+ *  Doppelganger copyright © 2014 Jonathan Ballands. All Rights Reserved.
+ *  Ghost copyright © 2014 The Ghost Foundation. All Rights Reserved.
+ */
+
+.pagination_container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Arvo', serif;
+    font-size: 14pt;
+    color: $gray-color;
+    
+    .pagination_container-column {
+        width: 19%;
+        display: inline-block;
+        
+        &.pager {
+            width: 40%;
+            font-style: italic;
+            color: $default-color;
+        }
+    }
+}

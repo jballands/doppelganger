@@ -1,0 +1,36 @@
+<!--
+ *  pagination.hbs
+ *   
+ *  Controls the look of the pagination at the bottom of index.hbs.
+ *
+ *  Doppelganger copyright © 2014 Jonathan Ballands. All Rights Reserved.
+ *  Ghost copyright © 2014 The Ghost Foundation. All Rights Reserved.
+-->
+
+<div class="pagination_container">
+    
+    <div class="pagination_container-column pager">
+        Newer
+        {{#if next}}
+        <a href="{{pageUrl prev}}">
+            <i class="fa fa-chevron-left"></i>
+            <span>Newer Posts</span>
+        </a>
+        {{/if}}
+    </div>
+
+    <div class="pagination_container-column">
+        <span>{{page}} of {{pages}}</span>
+    </div>
+
+    <div class="pagination_container-column pager">
+        Older
+        {{#if prev}}
+        <a href="{{pageUrl next}}">
+            <span>Older Posts</span>
+            <i class="fa fa-chevron-right"></i>
+        </a>
+        {{/if}}
+    </div>
+    
+</div>
