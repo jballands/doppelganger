@@ -24,7 +24,7 @@
         margin: 13px auto;
         text-align: center;
         
-        .date {
+        time {
             color: $gray-color;
             border-right: 1px solid $white-color;
             padding-right: 20px;
@@ -77,8 +77,20 @@
     }
     
     p {
-        margin: 18px 0;
+        margin: 25px 0;
         line-height: 16pt;
+    }
+    
+    blockquote {
+        margin: 35px; 
+        margin-left: 50px;
+        font-size: 18pt;
+        font-style: italic;
+        color: $gray-color;
+        
+        p {
+            line-height: 23pt;
+        }
     }
     
     code {
@@ -120,5 +132,49 @@
         margin: 0 auto;
         border-radius: 20px;
         max-width: 100%;
+    }
+}
+
+.post_close {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
+    .post_close-salute {
+        font-family: 'Oswald', sans-serif;
+        color: $gray-color;
+        font-size: 36pt;
+    
+        .post_close-salute-name {
+            color: $default-color;
+        }
+    }
+    
+    .post_close-stats {
+        font-family: 'Arvo', serif;
+        font-size: 14pt;
+        color: $gray-color;
+        margin-top: 13px;
+
+        div, time {
+            border-right: 1px solid $gray-color;
+            padding-right: 20px;
+            display: inline-block;
+        }
+        time {
+            padding-left: 20px;
+        }
+        
+        a {
+            color: $default-color;
+            font-style: italic;
+            text-decoration: none;
+            padding-left: 20px;
+            display: inline-block;
+        }
+    
+        a:hover {
+            color: $blue-color;
+        }
     }
 }
