@@ -9,20 +9,40 @@
 
 .footer_container {
     font-family: 'Arvo', serif;
-    font-size: 11pt;
-    line-height: 13pt;
-    margin-top: 100px;
-    padding-bottom: 30px;
+    font-size: 12pt;
+    line-height: 15pt;
+    margin-top: 60px;
     text-align: center;
-    color: $gray-color;
+    color: $white-color;
+    background-color: $default-color;
+    padding: 8vh 0;
     
     a {
         text-decoration: none;
-        color: $default-color;
+        color: $gray-color;
         font-style: italic;
         
         &:hover {
             color: $blue-color;
         }
     }
+    
+    ul {
+            list-style: none;
+            margin: 20px auto;
+            padding: 0;
+        
+            li {
+                display: inline-block;
+                padding: 0 25px;
+                
+                &:not(:last-child) {
+                    border-right: 1px solid $white-color;
+                }
+                
+                .social-icon {
+                    width: 21px;
+                }
+            }
+        }
 }

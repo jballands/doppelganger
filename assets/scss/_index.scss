@@ -41,6 +41,10 @@
                 &:not(:last-child) {
                     border-right: 1px solid $white-color;
                 }
+                
+                .social-icon {
+                    width: 27px;
+                }
             }
         }
     }
