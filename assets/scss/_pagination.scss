@@ -9,7 +9,6 @@
 
 .pagination_container {
     text-align: center;
-    padding-bottom: 60px;
     font-family: 'Arvo', serif;
     font-size: 14pt;
     color: $gray-color;
@@ -18,9 +17,17 @@
         display: inline-block;
         padding: 0 20px;
         
-        &.pager {
-            color: $default-color;
-            font-style: italic;
+        &.pager {     
+            a {
+                color: $default-color;
+                font-style: italic;
+                text-decoration: none;
+                
+                &.disabled {
+                    pointer-events: none;
+                    color: $light-gray-color;
+                }
+            }
         }
         
         &:not(:last-child) {

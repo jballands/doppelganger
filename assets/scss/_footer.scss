@@ -7,24 +7,22 @@
  *  Ghost copyright © 2014 The Ghost Foundation. All Rights Reserved.
  */
 
-.pagination_container {
-    text-align: center;
-    padding-bottom: 60px;
+.footer_container {
     font-family: 'Arvo', serif;
-    font-size: 14pt;
+    font-size: 11pt;
+    line-height: 13pt;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
     color: $gray-color;
     
-    .pagination_container-column {
-        display: inline-block;
-        padding: 0 20px;
+    a {
+        text-decoration: none;
+        color: $default-color;
+        font-style: italic;
         
-        &.pager {
-            color: $default-color;
-            font-style: italic;
-        }
-        
-        &:not(:last-child) {
-            border-right: 1px solid $gray-color;
+        &:hover {
+            color: $blue-color;
         }
     }
 }
