@@ -57,10 +57,9 @@ table {
  */
 
 @import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,400italic);
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
 
 /*
  *  Colors
@@ -227,6 +226,7 @@ body {
  *  Partials
  */
 
+@import '_footer.scss';
 @import '_index.scss';
 @import '_post.scss';
 @import '_pagination.scss';
