@@ -16,7 +16,11 @@
     padding: 8vh 0;
     
     @media (max-width: $max-portrait-width) {
+        margin-top: 30px;
         padding: 6vh 0;
+    }
+    @media (min-width: $max-portrait-width)and(max-width: $max-landscape-width){
+        margin-top: 50px;
     }
     
     .footer_full {

@@ -100,11 +100,11 @@
         
         @media (max-width: $max-portrait-width) {
             width: 80%;
-            margin: 20px auto;
+            margin: 15px auto;
         }
         @media (min-width: $max-portrait-width)and(max-width: $max-landscape-width) {
             width: 80%;
-            margin: 20px auto;
+            margin: 25px auto;
         }
     }
 }
