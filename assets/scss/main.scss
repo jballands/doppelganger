@@ -79,6 +79,21 @@ $max-portrait-width:    400px;
 $max-landscape-width:   800px;
 
 /*
+ *
+ */
+.arrow {
+    font-style:normal;
+    font-size:18pt;
+    
+    @media (max-width: $max-portrait-width) {
+        font-size:12pt;
+    }
+    @media (min-width: $max-portrait-width)and(max-width: $max-landscape-width) {
+        font-size:14pt;
+    }
+}
+
+/*
  *  Defaults
  */
 
