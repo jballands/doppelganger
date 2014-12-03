@@ -23,6 +23,7 @@
         font-family: 'Oswald', sans-serif;
         font-size: 54pt;
         color: $white-color;
+        width: 80%;
         
         @media (max-width: $max-portrait-width) {
             font-size: 28pt;
@@ -37,6 +38,7 @@
         font-size: 16pt;
         margin-top: 15px;
         color: $gray-color;
+        width: 80%;
         
         @media (max-width: $max-portrait-width) {
             font-size: 12pt;
@@ -116,6 +118,7 @@
         font-size: 32pt;
         text-align: center;
         margin-top: 50px;
+        width: 80%;
         
         @media (max-width: $max-portrait-width) {
             margin-top: 30px;

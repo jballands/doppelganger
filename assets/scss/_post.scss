@@ -24,6 +24,7 @@
         font-size: 48pt;
         line-height: 51pt;
         color: $white-color;
+        width: 80%;
         
         @media (max-width: $max-portrait-width) {
             font-size: 24pt;
